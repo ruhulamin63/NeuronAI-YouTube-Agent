@@ -34,9 +34,9 @@ class Agent extends Command
                 new AgentMonitoring(inspector())
             )
             ->chat(
-                new UserMessage("What about this video: https://www.youtube.com/watch?v=WmVLcj-XKnM")
+                new UserMessage("আমি আগামীকাল ছুটি নিতে চাই। আমি কি করতে পারি? আমার ম্যানেজারকে কী বলব?"),
             );
-            
+
         echo $response->getContent();
     }
 }
